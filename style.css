@@ -1,0 +1,169 @@
+/* Header */
+header{
+    background-color: rgb(48, 48, 116);
+}
+
+.header-title{
+    display: inline;
+    padding: 10px;
+    color:rgba(240, 234, 234, 0.904);
+    font-size: 40px;
+}
+
+.header-store{
+ text-align: left;
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.riscos{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+/* O CODIGO GIGANTESCO DOS RISQUINHO*/
+
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+}
+
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; 
+    padding: 20px;
+}
+
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+
+/* caixa dos jogos*/
+div li{
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.price-games{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* CLASSES DO INDEX*/
+
+.tres-riscos{
+    height:50px;
+    width: 50px;
+}
+
+.video-praticamente{
+    height: 300px;
+    width: auto;
+    padding-bottom: 20px;
+    margin: auto;
+}
+
+img{
+    width: 300px;
+}
+
+/*pagina jogo*/
+
+.content-director{
+    display: inline;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+button{
+    background-color: greenyellow;
+} 
+
+.desc-page{
+    width: 700px;
+    text-align: center;
+    text-align: justify;
+    background-color: #161515;
+    margin: auto;
+}
+
+.title-game-page{
+    text-align: center;
+}
+
+.text-page{
+    font-size: 20px;
+    color: white;
+}
+
+.page-download{
+    background-image: url(background-image.jpeg);
+}
+/*FOOTER/ PÉZADOR*/
+footer{
+    text-align: center;
+    background-color: rgb(48, 48, 116);
+}
+
+.texto-rodapé{
+    color: white;
+}
+
+.title-game{
+    text-align: center;
+}
+
